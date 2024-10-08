@@ -1,0 +1,56 @@
+body {
+    font-family: 'Sixtyfour Convergence', sans-serif;
+    font-size: 30px;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('imagenes/imagen-fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.juego {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.niveles {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(247, 65, 65);
+    border-radius: 5px;
+    border: 1px solid rgb(247, 65, 65);
+    margin-bottom: 20px;
+    background-color: rgb(25, 24, 24);
+}
+
+.iniciarJuego {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(4, 105, 4);
+    border-radius: 5px;
+    border: 1px solid rgb(247, 65, 65);
+    color: rgb(247, 65, 65);
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.juego img {
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.temporizador {
+    margin-top: 10px;
+    font-size: 30px;
+    color: red;
+}

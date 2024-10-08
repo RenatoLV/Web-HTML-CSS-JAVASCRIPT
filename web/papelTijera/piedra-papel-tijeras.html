@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijeras - Cartas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Piedra, Papel o Tijeras - Cartas</h1>
+        <p id="turnoJugador">Elige tu carta</p>
+        
+        <div class="selection-container">
+            <div id="jugador1-eleccion" class="icono-jugador"></div>
+            <div id="jugador2-eleccion" class="icono-jugador"></div>
+        </div>
+
+        <p id="resultado"></p>
+
+        <div class="choices">
+            <div class="choice">
+                <img src="./image/piedra.png" alt="Piedra">
+                <button onclick="seleccionar('piedra')">Piedra</button>
+            </div>
+            <div class="choice">
+                <img src="./image/papel.png" alt="Papel">
+                <button onclick="seleccionar('papel')">Papel</button>
+            </div>
+            <div class="choice">
+                <img src="./image/tijera.png" alt="Tijeras"> 
+                <button onclick="seleccionar('tijera')">Tijeras</button> 
+            </div>            
+        </div>
+
+        <a href="../index.html">Volver al menú</a>
+    </div>
+</body>
+</html>
